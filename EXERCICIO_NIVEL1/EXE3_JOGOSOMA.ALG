@@ -2,7 +2,7 @@ Algoritmo "exe3_jogosoma"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : alunocetam22
+// Autor(a)    : poliane sales
 // Data atual  : 25/03/2022
 
 Var
@@ -23,7 +23,8 @@ Inicio
 
     fimenquanto
 
-    escreva("VOCE PERDEU!")
-    escreva("Quantidade de acertos: ", acertos)
+    escreval ("VOCE PERDEU!")
+    escreval ("Tente novamente")
+    escreval ("Quantidade de acertos: ", acertos)
 
 Fimalgoritmo

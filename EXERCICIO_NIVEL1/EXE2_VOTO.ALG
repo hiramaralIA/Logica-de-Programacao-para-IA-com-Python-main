@@ -2,7 +2,7 @@ Algoritmo "exe2_voto"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : alunocetam22
+// Autor(a)    : poliane sales
 // Data atual  : 25/03/2022
 //    0-15 nao vota
 //    16-17 voto opcional
@@ -19,12 +19,15 @@ Inicio
     leia(idade)
 
     se idade < 16 entao
-       escreva("Nao tem idade para votar!")
+       escreval("Nao tem idade para votar!")
+       escreval ("obrigada")
        senao
        se (idade >=16) e (idade < 18) ou (idade >=70)  entao
-       escreva("Seu voto e opcional. ")
+       escreval("Seu voto e opcional. ")
+       escreval("obrigada")
        senao
-       escreva("Seu voto e obrigatorio! ")
+       escreval ("Seu voto e obrigatorio! ")
+       escreval  ("obrigada")
        fimse
        fimse
 
