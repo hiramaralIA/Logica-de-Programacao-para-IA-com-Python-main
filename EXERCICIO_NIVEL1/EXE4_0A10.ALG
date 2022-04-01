@@ -2,7 +2,7 @@ Algoritmo "exe4_0a10"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : alunocetam22
+// Autor(a)    : poliane sales
 // Data atual  : 25/03/2022
 
 Var
@@ -13,8 +13,8 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
 
 
-   enquanto (contador < 11) faca
-      escreva(contador)
+   enquanto (contador <= 6) faca
+      escreval(contador)
       contador <- contador + 1
       fimenquanto
 
